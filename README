@@ -1,7 +1,6 @@
 **Assignment Final Project**
 
 Overview
-
 This project will implement a ToDo queue system that utilizes the principle of a priority queue. The system is designed to handle
 - Tasks
 - Prioritizing tasks
@@ -9,11 +8,22 @@ This project will implement a ToDo queue system that utilizes the principle of a
 
 Files
 TaskQueue.java
+ - The `TaskQueue` interface defines the basic structure of a task queue. It includes methods for enqueueing tasks and processing them. The priority of tasks is managed using a `PriorityQueue`.
+
 ToDoList.java
+ -  ToDoList` class serves as the entry point for the application. It demonstrates the usage of the `TaskQueue` by creating a customer service queue, enqueuing tasks, and processing them.
+
 Task.java
+ - The `Task` class represents an individual task in the system. Tasks have a description, completion status, and priority level. They can be marked as completed and assigned to an employee.
+
 Employee.java
+ - The `Employee` class models an employee in the system. It has a name and a role, providing a simple representation of individuals who can be assigned tasks.
+
 Customer.java
+ - The `Customer` class represents a customer in the system. It has attributes such as name, email, and phone number.
+
 Assignable.java
+ - The `Assignable` interface declares a method for assigning tasks to employees. It is implemented by the `Task` class.
 
 **Contributors**
 Oliver Felipe

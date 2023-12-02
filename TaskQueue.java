@@ -1,5 +1,6 @@
 
 import java.util.PriorityQueue;
+import java.util.Random;
 
 public class TaskQueue
  {
@@ -39,6 +40,17 @@ public class TaskQueue
     private Employee getAvailableEmployee() 
     {
         // You can implement logic to retrieve an available employee
-        return new Employee("John Doe", "Customer Service Representative");
+        return new Employee(randomName(), "Customer Service Representative");
+    }
+        //randomize employee name everytime program is run
+    private String randomName()
+    {
+        String name [] = 
+        {
+            "John", "Oliver", "Juan", "Andrew", "Pamela", "Dr.Tammames"
+        };
+
+        Random rand = new Random();
+        return name[rand.nextInt(name.length)];
     }
 }
