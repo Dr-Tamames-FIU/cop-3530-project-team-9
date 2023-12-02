@@ -13,8 +13,8 @@ public class ToDoList
         TaskQueue customerServiceQueue = new TaskQueue();
 
         //Tasks added to the queue
-        Task task1 = new Task("Handle customer inquiry");
-        Task task2 = new Task("Process refund request");
+        Task task1 = new Task("Handle customer inquiry", 1);
+        Task task2 = new Task("Process refund request", 2);
 
         customerServiceQueue.enqueue(task1);
         customerServiceQueue.enqueue(task2);

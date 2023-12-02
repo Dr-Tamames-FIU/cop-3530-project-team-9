@@ -1,13 +1,12 @@
 
-import java.util.ArrayList;
 import java.util.PriorityQueue;
 
-public interface TaskQueue
+public class TaskQueue
  {
     private PriorityQueue<Task> queue;
 
-    TaskQueue() 
-    {
+
+    public TaskQueue() {
         this.queue = new PriorityQueue<>((t1, t2) -> Integer.compare(t2.getPriority(), t1.getPriority()));
     }
 
