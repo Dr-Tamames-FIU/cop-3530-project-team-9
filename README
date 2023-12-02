@@ -1,0 +1,28 @@
+**Assignment Final Project**
+
+Overview
+
+This project will implement a ToDo queue system that utilizes the principle of a priority queue. The system is designed to handle
+- Tasks
+- Prioritizing tasks
+- Catergoize levels of priority per task
+
+Files
+TaskQueue.java
+ToDoList.java
+Task.java
+Employee.java
+Customer.java
+Assignable.java
+
+**Contributors**
+Oliver Felipe
+Juan Rivera
+Andrew Schreiber
+Pamela Mauna
+
+**Group**
+9 and 17
+
+
+
