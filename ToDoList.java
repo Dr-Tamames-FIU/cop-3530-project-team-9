@@ -1,6 +1,6 @@
 
 /**
- * Team members: Oliver Felipe, Juan Rivera, Andrew Schreiber, Pamela Mauna
+ * Team members: Oliver Felipe, Juan Rivera, Andrew Schreiber, Pamela Mauna, Alejandra Lievano
  * Group: 9 & 17
  * Implementation: To Do queue system to utilizes the principle of priority queue
  * 
